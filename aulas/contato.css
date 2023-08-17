@@ -1,0 +1,114 @@
+header {
+	background: #000000;
+	padding: 20px 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 10px;
+	
+} 
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-wigth: bold;
+    font-size: 22px;
+	text-decoration: none;
+	
+}
+.home{
+	color: #ffffff;
+}
+.home a:hover{
+	color: #ffffff;	
+	border : 2px solid #0672ba;
+	border-radius : 10px;
+}
+.produtos{
+	color: #ffffff;	
+}
+.contato{
+	color: #0672ba;
+	
+	
+}
+.caixa{
+	position: relative;
+	width: 940px;
+    margin: 0 auto;
+}
+nav a:hover{
+ color: #cccccc;
+}
+.reserva{
+	color: #ffffff;
+	padding: 40px 0;
+}
+main{
+	width: 940px
+	margin: 0 auto;
+}
+form{
+	margin: 40px 0 auto;
+}
+.checkbox{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	color: #ffffff;
+}
+.input-padrao{
+	display: block;
+	font-size:0 0 20px;
+	padding: 10px 20px;
+	width: 50%	
+	color: #ffffff;
+}
+.enviar{
+	width:40%;
+	padding:15px 0;
+	background:orange;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	border:none;
+	border-radius:5px;
+	transition:1s all;
+	cursor:pointer;	
+}
+.enviar:hover:{
+	background:darkorange;
+	transform:scale:(1.2);
+	transform:rotate:(100 deg);
+}
+table{
+	margin:20px 0 40px;
+}
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+td, tr{
+	border 1px solid #000000;
+}
+form{
+	background: linear-gradient( #0672ba, #000000);
+}
+p{
+	color: #ffffff;
+}
+legend{
+	color: #ffffff;
+}
+.branco{
+	color: #ffffff;
+}
+.reserva{
+	color: #ffffff;
+	padding: 40px 0;
+}

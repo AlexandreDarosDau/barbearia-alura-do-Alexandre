@@ -1,0 +1,99 @@
+header {
+	background: #000000;
+	padding: 20px 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 10px;
+	
+}
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav a { 
+	text-transform: uppercase;
+	color: #000000;
+	font-wigth: bold;
+    font-size: 22px;
+	text-decoration: none;
+	
+}
+.home{
+color: #ffffff;
+}
+.home a:hover{
+	color: #ffffff;	
+	border : 2px solid #0672ba;
+	border-radius : 10px;
+}
+.produtos{	
+	color: #0672ba;
+	
+}
+.contato{
+	color: #ffffff;
+	
+}
+.caixa{
+	position: relative;
+	width: 940px;
+    margin: 0 auto;
+}
+nav a:hover{
+ color: #cccccc;
+}
+.cortes{
+	width: 940px;
+    margin: 0 auto;	
+	padding: 50px 0;
+}
+.cortes li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border:  5px solid #000000;
+	border-radius: 20px;
+}
+.cortes li:hover{
+	border-color: #0672ba;
+}
+.cortes li:hover h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+.cortes li:active{
+	border-color: #cccccc;
+	
+}
+.cortes h2{
+	font-size: 30px;
+	font-weight: bold
+}
+.cortes li:hover h2{
+	font-size: 34px;
+}
+.cortes-preco{
+	font-size: 22px;
+	font-weight: hold;
+	margin: 10px;
+}
+.cortes-descricao{
+	font-size: 20px;
+	
+}
+footer {
+	text-align: center;
+	background: url("bg.jpg")
+	
+	
+}
+.reserva{
+	color: #ffffff;
+	padding: 40px 0;
+}
